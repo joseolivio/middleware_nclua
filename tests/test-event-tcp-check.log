@@ -1,0 +1,20 @@
+[3518]	server started
+[3518]	writing server PID to '/tmp/lua_My0U0X'
+[0.002ms]	../nclua/event/tcp.lua:62: assertion failed!
+[0.046ms]	../nclua/event/tcp.lua:62: assertion failed!
+[0.059ms]	bad event field 'type' (string expected, got nil)
+[0.097ms]	bad event field 'type' (invalid option 'unknown')
+[0.11ms]	bad event field 'host' (string expected, got nil)
+[0.11ms]	bad event field 'port' (number expected, got nil)
+[0.12ms]	bad event field 'port' (number expected, got string)
+[0.14ms]	bad event field 'timeout' (number expected, got table)
+[0.14ms]	bad event field 'connection' (socket expected, got nil)
+[0.15ms]	bad event field 'connection' (socket expected, got number)
+[0.18ms]	bad event field 'connection' (socket userdata: 0x1f22ae8 not connected)
+[0.19ms]	bad event field 'connection' (socket expected, got number)
+[0.2ms]	bad event field 'connection' (socket userdata: 0x1f66fa8 not connected)
+[0.21ms]	bad event field 'value' (string expected, got nil)
+[0.22ms]	bad event field 'value' (string expected, got table)
+[3523]	client connected from 127.0.0.1:46284
+[3523]	client disconnected
+PASS test-event-tcp-check.lua (exit status: 0)

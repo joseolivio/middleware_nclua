@@ -1,0 +1,4 @@
+#1	----------------------------------------------------------------------
+**
+ERROR:ncluaw.c:192:ncluaw_event_clone: code should not be reached
+XFAIL test-libncluaw-event-clone-x (exit status: 134)

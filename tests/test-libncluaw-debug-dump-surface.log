@@ -1,0 +1,5 @@
+#1	----------------------------------------------------------------------
+[0ms]	error while writing to output stream
+[0.03ms]	error while writing to output stream
+#2	----------------------------------------------------------------------
+PASS test-libncluaw-debug-dump-surface (exit status: 0)

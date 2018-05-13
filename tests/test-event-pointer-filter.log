@@ -1,0 +1,7 @@
+[0.002ms]	../nclua/event/pointer.lua:49: assertion failed!
+[0.036ms]	../nclua/event/pointer.lua:49: assertion failed!
+[0.046ms]	bad argument 'type' (string expected, got table)
+[0.053ms]	bad argument 'type' (invalid option 'unknown')
+[0.061ms]	bad argument 'x' (number expected, got table)
+[0.067ms]	bad argument 'y' (number expected, got table)
+PASS test-event-pointer-filter.lua (exit status: 0)

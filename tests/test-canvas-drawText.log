@@ -1,0 +1,2 @@
+error: ./test-canvas-drawText.lua:45: assertion #1 failed!
+FAIL test-canvas-drawText.lua (exit status: 1)

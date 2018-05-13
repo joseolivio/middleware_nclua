@@ -1,0 +1,10 @@
+[0.002ms]	../nclua/event/pointer.lua:37: assertion failed!
+[0.038ms]	../nclua/event/pointer.lua:37: assertion failed!
+[0.046ms]	bad event field 'type' (string expected, got nil)
+[0.085ms]	bad event field 'type' (invalid option 'unknown')
+[0.097ms]	bad event field 'x' (number expected, got nil)
+[0.1ms]	bad event field 'y' (number expected, got nil)
+[0.11ms]	bad event field 'x' (number expected, got nil)
+[0.12ms]	bad event field 'x' (number expected, got table)
+[0.12ms]	bad event field 'y' (number expected, got table)
+PASS test-event-pointer-check.lua (exit status: 0)

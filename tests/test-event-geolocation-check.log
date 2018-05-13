@@ -1,0 +1,10 @@
+[0.002ms]	../nclua/event/geolocation.lua:49: assertion failed!
+[0.037ms]	../nclua/event/geolocation.lua:49: assertion failed!
+[0.046ms]	bad event field 'timeout' (number expected, got table)
+[0.052ms]	bad event field 'latitude' (number expected, got table)
+[0.057ms]	bad event field 'longitude' (number expected, got table)
+[0.063ms]	bad event field 'altitude' (number expected, got table)
+[0.068ms]	bad event field 'accuracy' (number expected, got table)
+[0.074ms]	bad event field 'speed' (number expected, got table)
+[0.081ms]	bad event field 'heading' (number expected, got table)
+PASS test-event-geolocation-check.lua (exit status: 0)

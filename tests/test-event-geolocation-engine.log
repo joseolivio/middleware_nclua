@@ -1,0 +1,3 @@
+table: 0x2027780
+class	geolocation
+PASS test-event-geolocation-engine.lua (exit status: 0)

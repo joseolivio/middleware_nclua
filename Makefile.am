@@ -50,6 +50,7 @@ EXTRA_DIST+=\
   build-aux/useless-if-before-free\
   build-aux/util.m4\
   build-aux/warnings.m4\
+  build-aux/libcurl.m4\
   maint.mk\
   $(NULL)
 
@@ -98,6 +99,7 @@ MAINTAINERCLEANFILES+=\
   build-aux/missing\
   build-aux/mkinstalldirs\
   build-aux/test-driver\
+  build-aux/libcurl.m4\
   configure\
   lib/config.h.in\
   lib/config.h.in~\

@@ -1,0 +1,55 @@
+[0.002ms]	cycling
+[54ms]	cycling
+[1.1e+02ms]	cycling
+[1.7e+02ms]	cycling
+[2.4e+02ms]	cycling
+[3.9e+02ms]	cycling
+[5.4e+02ms]	cycling
+[6.2e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.8e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[6.9e+02ms]	cycling
+[7e+02ms]	cycling
+[7e+02ms]	cycling
+[7e+02ms]	cycling
+[7e+02ms]	cycling
+[7e+02ms]	cycling
+[7e+02ms]	cycling
+[7e+02ms]	cycling
+[7.2e+02ms]	INQ:	OUTQ:	TMPQ:
+[7.2e+02ms]	0	0	2
+[7.2e+02ms]	0	0	1
+[7.9e+02ms]	0	0	1
+[8.4e+02ms]	0	0	1
+{
+   port=0,
+   type=connect,
+   error=Error resolving 'unknown': Name or service not known,
+   host=unknown,
+   class=tcp,
+}
+[8.9e+02ms]	0	0	1
+[9.4e+02ms]	0	0	0
+[9.5e+02ms]	cycling
+[9.6e+02ms]	cycling
+[9.7e+02ms]	cycling
+[9.7e+02ms]	cycling
+[9.7e+02ms]	cycling
+[9.8e+02ms]	cycling
+[9.8e+02ms]	cycling
+[9.8e+02ms]	cycling
+PASS test-event-init-cycle.lua (exit status: 0)

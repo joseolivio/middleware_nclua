@@ -1,0 +1,13 @@
+# lib/nclua.pc.  Generated from nclua.pc.in by configure.
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: nclua
+Description: Event handling and 2D graphics for Lua scripts
+Version: 1.3.229-2d631-dirty
+
+Cflags:
+Libs: -L${libdir} -lnclua
+Libs.private: -lcairo -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lcairo -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0

@@ -1,0 +1,32 @@
+[0.002ms]	bad argument 'delay' (number expected, got nil)
+[0.036ms]	bad argument 'func' (function expected, got nil)
+[0.044ms]	bad argument 'delay' (number expected, got nil)
+{
+   1={
+      end_time=1,
+      cancel=function: 0x11d0a50,
+      func=function: 0x11d02a0,
+   },
+   2={
+      end_time=10,
+      cancel=function: 0x11d0440,
+      func=function: 0x11d0220,
+   },
+   3={
+      end_time=20,
+      cancel=function: 0x11d0750,
+      func=function: 0x11d0220,
+   },
+   4={
+      end_time=30,
+      cancel=function: 0x11d0d40,
+      func=function: 0x11d02e0,
+   },
+}
+[0.14ms]	cycling for 15ms
+[1.2ms]	f2 called at 1.002ms
+[10ms]	f1 called at 10.003ms
+[15ms]	cycling for 31ms
+[39ms]	f3 called at 39.229ms
+error: ./test-event-init-timer.lua:127: assertion #3 failed!
+FAIL test-event-init-timer.lua (exit status: 1)

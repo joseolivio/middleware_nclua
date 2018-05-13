@@ -1,0 +1,28 @@
+#1	----------------------------------------------------------------------
+[0.002ms]	cycling
+[54ms]	false	userdata: 0x148f898	GET	http://github.com/	nil	nil	nil	Operation was cancelled
+#2	----------------------------------------------------------------------
+[1.5e+02ms]	cycling
+[1.6e+02ms]	false	userdata: 0x148f898	GET	http://github.com/	nil	nil	nil	Operation was cancelled
+[1.6e+02ms]	false	userdata: 0x148f898	GET	http://www.puc-rio.br/	nil	nil	nil	Operation was cancelled
+[1.6e+02ms]	false	userdata: 0x148f898	GET	http://www.inf.puc-rio.br/	nil	nil	nil	Operation was cancelled
+[1.6e+02ms]	false	userdata: 0x148f898	GET	http://telemidia.puc-rio.br/	nil	nil	nil	Operation was cancelled
+#3	----------------------------------------------------------------------
+[2.5e+02ms]	cycling
+[1e+03ms]	1	
+
+[1e+03ms]	cycling
+[1e+03ms]	2	Operation was cancelled
+#4	----------------------------------------------------------------------
+[1.1e+03ms]	cycling
+[1.7e+03ms]	true	userdata: 0x148f898	GET	https://github.com/	200	table: 0x1a82180	
+
+[1.7e+03ms]	cycling
+[1.7e+03ms]	false	userdata: 0x148f898	GET	https://github.com/	nil	nil	nil	Operation was cancelled
+[1.8e+03ms]	cycling
+[2e+03ms]	true	userdata: 0x148f898	GET	http://www.puc-rio.br/	500	table: 0x1c22350	<
+[2e+03ms]	cycling
+[2e+03ms]	false	userdata: 0x148f898	GET	http://www.puc-rio.br/	nil	nil	nil	Operation was cancelled
+[2e+03ms]	cycling
+[2.3e+03ms]	true	userdata: 0x148f898	GET	http://www.telemidia.puc-rio.br/	200	table: 0x1b3a8a0	<
+PASS test-event-http-soup-cancel.lua (exit status: 0)

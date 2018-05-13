@@ -1,0 +1,4 @@
+[0.002ms]	../nclua/event/tcp.lua:85: assertion failed!
+[0.036ms]	../nclua/event/tcp.lua:85: assertion failed!
+[0.049ms]	bad argument 'connection' (socket expected, got number)
+PASS test-event-tcp-filter.lua (exit status: 0)

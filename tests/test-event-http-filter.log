@@ -1,0 +1,4 @@
+[0.001ms]	../nclua/event/http.lua:82: assertion failed!
+[0.034ms]	../nclua/event/http.lua:82: assertion failed!
+[0.044ms]	bad argument 'type' (string expected, got table)
+PASS test-event-http-filter.lua (exit status: 0)

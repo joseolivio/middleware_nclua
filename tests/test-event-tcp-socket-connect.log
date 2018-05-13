@@ -1,0 +1,15 @@
+[0.007ms]	cycling
+[3410]	server started
+[3410]	writing server PID to '/tmp/lua_ujDeU1'
+[21ms]	connect:	userdata: 0x1a96ca8	localhost	4333	nil
+[32ms]	cycling
+[32ms]	disconnect:	userdata: 0x1a96ca8	nil
+[3415]	client connected from 127.0.0.1:34456
+[3415]	client disconnected
+[43ms]	cycling
+[64ms]	connect:	userdata: 0x1a96ca8	localhost	4333	nil
+[1.4e+02ms]	cycling
+[1.7e+02ms]	connect fail:	userdata: 0x1ad82a8	localhost	4333	Could not connect to localhost: Connection refused
+[3416]	client connected from 127.0.0.1:34458
+[3416]	client disconnected
+PASS test-event-tcp-socket-connect.lua (exit status: 0)

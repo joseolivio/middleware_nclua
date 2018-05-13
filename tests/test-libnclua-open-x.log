@@ -1,0 +1,4 @@
+#1	----------------------------------------------------------------------
+**
+ERROR:nclua.c:44:require: assertion failed: (!lua_isnil (L, -1))
+XFAIL test-libnclua-open-x (exit status: 134)

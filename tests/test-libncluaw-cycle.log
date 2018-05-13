@@ -1,0 +1,54 @@
+#1	----------------------------------------------------------------------
+{
+   key=0,
+   class=key,
+   type=press,
+}
+{
+   value=y,
+   type=attribution,
+   action=start,
+   class=ncl,
+   name=x,
+}
+{
+   type=move,
+   class=pointer,
+   x=0,
+   y=0,
+}
+{
+   key=13,
+   class=key,
+   type=release,
+}
+{
+   action=start,
+   label=abc,
+   class=ncl,
+   type=selection,
+}
+{
+   type=press,
+   class=pointer,
+   x=-13,
+   y=23,
+}
+{
+   key=abc,
+   class=key,
+   type=press,
+}
+{
+   action=abort,
+   label=y,
+   class=ncl,
+   type=presentation,
+}
+{
+   type=release,
+   class=pointer,
+   x=1024,
+   y=-1024,
+}
+PASS test-libncluaw-cycle (exit status: 0)

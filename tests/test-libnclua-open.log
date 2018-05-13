@@ -1,0 +1,40 @@
+#1	----------------------------------------------------------------------
+[0ms]	module 'nclua.canvas' not found:
+	no field package.preload['nclua.canvas']
+	no file '/invalid/invalid'
+	no file '/invalid/invalid'
+	no file '/invalid/invalid'
+#2	----------------------------------------------------------------------
+[0.524ms]	invalid value (typically too big) for the size of the input (surface, pattern, etc.)
+[0.537ms]	invalid value (typically too big) for the size of the input (surface, pattern, etc.)
+[0.539ms]	invalid value (typically too big) for the size of the input (surface, pattern, etc.)
+#3	----------------------------------------------------------------------
+[12.976ms]	../nclua/event/init.lua:81: module 'nclua.event.unknown' not found:
+	no field package.preload['nclua.event.unknown']
+	no file '../nclua/event/unknown.lua'
+	no file '../nclua/event/unknown/init.lua'
+	no file '../tests/nclua/event/unknown.lua'
+	no file '/usr/local/share/lua/5.2/nclua/event/unknown.lua'
+	no file '/usr/local/share/lua/5.2/nclua/event/unknown/init.lua'
+	no file '/usr/local/lib/lua/5.2/nclua/event/unknown.lua'
+	no file '/usr/local/lib/lua/5.2/nclua/event/unknown/init.lua'
+	no file '/usr/share/lua/5.2/nclua/event/unknown.lua'
+	no file '/usr/share/lua/5.2/nclua/event/unknown/init.lua'
+	no file './nclua/event/unknown.lua'
+	no file './.libs/nclua/event/unknown.so'
+	no file '../nclua/event/unknown.so'
+	no file '/usr/local/lib/lua/5.2/nclua/event/unknown.so'
+	no file '/usr/lib/x86_64-linux-gnu/lua/5.2/nclua/event/unknown.so'
+	no file '/usr/lib/lua/5.2/nclua/event/unknown.so'
+	no file '/usr/local/lib/lua/5.2/loadall.so'
+	no file './nclua/event/unknown.so'
+	no file './.libs/nclua.so'
+	no file '../nclua.so'
+	no file '/usr/local/lib/lua/5.2/nclua.so'
+	no file '/usr/lib/x86_64-linux-gnu/lua/5.2/nclua.so'
+	no file '/usr/lib/lua/5.2/nclua.so'
+	no file '/usr/local/lib/lua/5.2/loadall.so'
+	no file './nclua.so'
+[22.48ms]	../nclua/event/init.lua:82: module 'stopwatch' is not a plugin
+#4	----------------------------------------------------------------------
+PASS test-libnclua-open (exit status: 0)

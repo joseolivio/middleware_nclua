@@ -1,0 +1,2 @@
+[0.001ms]	uptime:	1000.429
+PASS test-event-init-uptime.lua (exit status: 0)

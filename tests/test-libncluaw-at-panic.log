@@ -1,0 +1,3 @@
+#1	----------------------------------------------------------------------
+[0ms]	0xf7fd30: [string "error ('catch error')"]:1: catch error
+PASS test-libncluaw-at-panic (exit status: 0)

@@ -1,0 +1,6 @@
+#1	----------------------------------------------------------------------
+[0ms]	cannot open /invalid/invalid: No such file or directory
+#2	----------------------------------------------------------------------
+[0.183ms]	invalid value (typically too big) for the size of the input (surface, pattern, etc.)
+#3	----------------------------------------------------------------------
+PASS test-libncluaw-open (exit status: 0)

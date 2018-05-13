@@ -61,6 +61,7 @@ m4_define([gtk_required_version], [3.4.2])
 m4_define([lua_required_version], [5.2])
 m4_define([pango_required_version], [1.30.0])
 m4_define([soup_required_version], [2.42])
+m4_define([libcurl_required_version], [7.10.1])
 AC_SUBST([CAIRO_REQUIRED_VERSION], cairo_required_version)
 AC_SUBST([GLIB_REQUIRED_VERSION], glib_required_version)
 AC_SUBST([GSTREAMER_REQUIRED_VERSION], gstreamer_required_version)
@@ -68,6 +69,7 @@ AC_SUBST([GTK_REQUIRED_VERSION], gtk_required_version)
 AC_SUBST([LUA_REQUIRED_VERSION], lua_required_version)
 AC_SUBST([PANGO_REQUIRED_VERSION], pango_required_version)
 AC_SUBST([SOUP_REQUIRED_VERSION], soup_required_version)
+AC_SUBST([LIBCULR_REQUIRED_VERSION], libcurl_required_version)
 
 # Tool checks.
 AU_PROG_CC_VISIBILITY
@@ -213,6 +215,21 @@ AU_CHECK_OPTIONAL_PKG([event-http], [build the http event class], [],
 #endif
  ]])],
  [AC_LANG_PROGRAM([[]], [[soup_session_new_with_options (0, 0, 0);]])])
+
+# Check for LibCurl (optional) (feito por mim).
+AU_VERSION_BREAK([libcurl], libcurl_required_version)
+AU_CHECK_OPTIONAL_PKG([event-http], [build the http event class], [],
+ [CURL], libcurl-7.10.1 >= soup_required_version,
+ [AC_LANG_PROGRAM([[
+#include <libcurl/curl.h>
+#if !CURL_CHECK_VERSION  \
+    (CURL_REQUIRED_MAJOR,\
+     CURL_REQUIRED_MINOR,\
+     CURL_REQUIRED_MICRO)
+# error "libcurl is too old"
+#endif
+ ]])],
+ [AC_LANG_PROGRAM([[]], [[curl_session_new_with_options (0, 0, 0);]])])
 
 # Check for GStreamer (optional).
 AU_VERSION_BREAK([gstreamer], gstreamer_required_version)

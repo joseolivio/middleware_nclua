@@ -1,0 +1,11 @@
+[0.002ms]	../nclua/event/http.lua:59: assertion failed!
+[0.05ms]	../nclua/event/http.lua:59: assertion failed!
+[0.059ms]	bad event field 'type' (string expected, got nil)
+[0.066ms]	bad event field 'type' (invalid option 'unknown')
+[0.071ms]	bad event field 'type' (string expected, got nil)
+[0.078ms]	bad event field 'method' (invalid option 'unknown')
+[0.084ms]	bad event field 'uri' (string expected, got nil)
+[0.093ms]	bad event field 'uri' (string expected, got table)
+[0.1ms]	bad event field 'headers' (table expected, got function)
+[0.11ms]	bad event field 'body' (string expected, got function)
+PASS test-event-http-check.lua (exit status: 0)

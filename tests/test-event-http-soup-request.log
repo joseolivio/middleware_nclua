@@ -1,0 +1,51 @@
+[0.002ms]	cycling
+[2e+02ms]	false	GET	http://www.x1x1.br	userdata: 0x694688	Error resolving 'www.x1x1.br': Name or service not known
+[2.1e+02ms]	cycling
+[4.2e+02ms]	true	POST	http://www.puc-rio.br/404	userdata: 0x694688	411
+{
+   Server=Microsoft-HTTPAPI/2.0,
+   Content-Length=344,
+   Content-Type=text/html; charset=us-ascii,
+   Connection=close,
+   Date=Sat, 12 May 2018 14:10:36 GMT,
+}
+[4.2e+02ms]	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Length Required</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Length Required</h2>
+<hr><p>HTTP Error 411. The request must be chunked or have a content length.</p>
+</BODY></HTML>
+
+[4.3e+02ms]	true	POST	http://www.puc-rio.br/404	userdata: 0x694688	411
+[4.3e+02ms]	
+[4.5e+02ms]	cycling
+[1.7e+03ms]	true	userdata: 0x694688	GET	https://github.com/telemidia/nclua/raw/master/AUTHORS	200
+{
+   Expires=Sat, 12 May 2018 14:15:38 GMT,
+   Vary=Authorization,Accept-Encoding,
+   Via=1.1 varnish,
+   Date=Sat, 12 May 2018 14:10:38 GMT,
+   Content-Security-Policy=default-src 'none'; style-src 'unsafe-inline'; sandbox,
+   Access-Control-Allow-Origin=*,
+   X-Frame-Options=deny,
+   ETag="06eea3b0fc36fbd414bdc14778fcd2ed30bb8b5e",
+   Accept-Ranges=bytes,
+   Connection=keep-alive,
+   Strict-Transport-Security=max-age=31536000,
+   X-Cache=HIT,
+   X-XSS-Protection=1; mode=block,
+   Content-Encoding=gzip,
+   Content-Length=66,
+   X-Geo-Block-List=,
+   X-Timer=S1526134238.177466,VS0,VE0,
+   Source-Age=99,
+   X-GitHub-Request-Id=4010:5BAC:1BFC7B:1DAE58:5AF6F57A,
+   X-Fastly-Request-ID=fbe3e631708c0028422e5500644b16ec3c3a238f,
+   Cache-Control=max-age=300,
+   X-Served-By=cache-gru17135-GRU,
+   X-Content-Type-Options=nosniff,
+   Content-Type=text/plain; charset=utf-8,
+   X-Cache-Hits=1,
+}
+[1.7e+03ms]	true	userdata: 0x694688	GET	https://github.com/telemidia/nclua/raw/master/AUTHORS	200
+PASS test-event-http-soup-request.lua (exit status: 0)

@@ -330,6 +330,7 @@ EXTRA_DIST+=\
   test-libncluaw-cycle.lua\
   tests.h\
   tests.lua\
+  libcurl.m4\
   $(NULL)
 
 CLEANFILES+= *.log *.trs\

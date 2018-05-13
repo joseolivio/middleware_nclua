@@ -1,0 +1,4 @@
+#1	----------------------------------------------------------------------
+[0.001ms]	0x8ca100
+[0.021ms]	0x8ca100
+PASS test-libncluaw-debug-get-surface (exit status: 0)
